@@ -32,7 +32,9 @@ function App() {
     <div>
     
      <BrowserRouter>
+   
 <Routes>
+  
         <Route path="/" element={<Rideexplore />} />
         {/* <Route path="/signup" element={<Ridesignup />} />
         <Route path="/login" element={<Ridelogin />} /> */}
