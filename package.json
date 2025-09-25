@@ -6,7 +6,13 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+<<<<<<< HEAD
     "preview": "vite preview"
+=======
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+>>>>>>> 25a3efa (Fix package-lock.json sync with package.json)
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -17,6 +23,10 @@
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
     "@vitejs/plugin-react": "^4.2.1",
+<<<<<<< HEAD
+=======
+    "gh-pages": "^6.3.0",
+>>>>>>> 25a3efa (Fix package-lock.json sync with package.json)
     "vite": "^5.1.4"
   }
 }
