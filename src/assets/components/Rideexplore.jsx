@@ -88,10 +88,9 @@ const Rideexplore = () => {
   return (
     <div className="vefg">
 
-      {/* HEADER SECTION - separated from video */}
       <section className="header">
         <div className="header_image">
-          {/* <img src="/images/ridelogo.jpg" alt="error" height="100px" width="100px" /> */}
+        
            <img src="/images/rlogo.png" alt="error" height="100px" width="100px" />
         </div>
         <div className="header_menu">

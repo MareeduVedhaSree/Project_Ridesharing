@@ -68,7 +68,7 @@ const Ridesignup = () => {
       <div className="welcome-section">
         <h2 className="title">Welcome Back!</h2>
         <p>To keep connected with us please login with your personal info</p>
-        <button className="sign-in-button" onClick={() => navigate('/login')}>SIGN IN</button>
+        <button className="sign-in-button" onClick={() => navigate('/ridelogin')}>SIGN IN</button>
       </div>
 
       <div className="signup-section">

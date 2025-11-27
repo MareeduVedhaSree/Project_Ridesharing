@@ -20,8 +20,6 @@ import Ridephonepay from './assets/components/Ridephonepay.jsx';
 import RideForm from './assets/components/RideForm.jsx';
 import UserComponent from './assets/components/UserComponent.jsx';
 import RideDetailsCard from './assets/components/RideDetailsCard.jsx';
-// import Signup from './assets/components/signup.jsx';
-// import Login from './assets/components/Login.jsx';
 
 
 
@@ -36,10 +34,9 @@ function App() {
 <Routes>
   
         <Route path="/" element={<Rideexplore />} />
-        {/* <Route path="/signup" element={<Ridesignup />} />
-        <Route path="/login" element={<Ridelogin />} /> */}
-           {/* <Route path="/signup" element={<Signup />} /> */}
-        {/* <Route path="/login" element={<Login />} /> */}
+        <Route path="/signup" element={<Ridesignup />} />
+        <Route path="/login" element={<Ridelogin />} />
+         
                 <Route path="/ride" element={<Ride />} />
         <Route path="/ridebook" element={<Ridebook />} />
         <Route path="/ChooseAction" element={<ChooseAction />} />
@@ -56,9 +53,8 @@ function App() {
         <Route path="/Rideabout" element={<Rideabout />} />
         <Route path="/Ridesafety" element={<Ridesafety />} />
         <Route path="/Ridecontact" element={<Ridecontactus />} />
-        {/* <Route path="/Ridelogin" element={<Ridelogin />} />
-            <Route path="/Ridesignup" element={<Ridesignup />} /> */}
- {/* <Route path="/Ride" element={<Ride />} /> */}
+     
+  <Route path="/Ride" element={<Ride />} />
 
 
 
